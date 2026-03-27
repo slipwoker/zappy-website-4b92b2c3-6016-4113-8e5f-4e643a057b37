@@ -1,6 +1,4 @@
-# מוזיאיליקי — Generative Engine Optimization Map
-
-> Muziaeliki is a music recording studio with a compelling success story to tell. The studio offers full-service music production including singles and album recordings, personal artist representation, and online appointment booking. The brand emphasizes a personal, artist-first approach, combining professional music production with digital presence through Instagram and Facebook integration, and showcasing real artist success stories to attract new talent.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -44,22 +42,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About מוזיאיליקי
-Muziaeliki is a music recording studio with a compelling success story to tell. The studio offers full-service music production including singles and album recordings, personal artist representation, and online appointment booking. The brand emphasizes a personal, artist-first approach, combining professional music production with digital presence through Instagram and Facebook integration, and showcasing real artist success stories to attract new talent.
-
-## Services/Products
-- הקלטת סינגלים ואלבומים
-- ייצוג אמנים אישי
-- קביעת תורים לפגישות באולפן אונליין
-- חיבור לעמוד אינסטגרם ופייסבוק
-- הצגת סיפור הצלחה
-
-## Target Audience
-אמנים, זמרים, מוזיקאים המחפשים אולפן הקלטות
-
-## Industry
-מוזיקה ובידור
-
+## About Business
 ---
 
 # Additional Resources
