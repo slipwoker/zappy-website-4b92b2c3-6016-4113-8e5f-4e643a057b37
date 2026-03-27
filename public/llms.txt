@@ -1,51 +1,68 @@
-# Business — Generative Engine Optimization Map
+# מוזיאיליקי — Generative Engine Optimization Map
+
+> Muziaeliki is a music recording studio with a compelling success story to tell. The studio offers full-service music production including singles and album recordings, personal artist representation, and online appointment booking. The brand emphasizes a personal, artist-first approach, combining professional music production with digital presence through Instagram and Facebook integration, and showcasing real artist success stories to attract new talent.
 
 ---
 
 ## Pages
 
 ### בית
-https://example.com
+https://muziaeliki.zappy5.app
 מוזיאיליקי הוא אולפן הקלטות לאמנים שמאמין בכם לפני שכולם מאמינים. הקלטת סינגל באולפן מקצועי, הפקה מלאה וייצוג אישי — הכל במקום אחד. הגיע הזמן שהעולם ישמע אתכם.
 
 ### סיפורי הצלחה
-https://example.com/success-stories
+https://muziaeliki.zappy5.app/success-stories
 גלו איך אמנים אמיתיים הפכו את החלום למציאות עם מוזיאיליקי. סיפורי הצלחה מרגשים של זמרים ומוזיקאים שהתחילו בדיוק מאיפה שאתם נמצאים עכשיו. ההצלחה הבאה יכולה להיות שלכם.
 
 ### הפקה וייצוג
-https://example.com/production-and-representation
+https://muziaeliki.zappy5.app/production-and-representation
 מהקלטת סינגל באולפן מקצועי ועד הקלטת אלבום מקצועי מלא — מוזיאיליקי מציע הפקה מוזיקלית וייצוג אישי שמעמיד את האמן במרכז. אנחנו לא רק מקליטים, אנחנו בונים קריירות.
 
 ### נוכחות ברשתות
-https://example.com/social-presence
+https://muziaeliki.zappy5.app/social-presence
 נוכחות דיגיטלית חזקה היא חלק בלתי נפרד מהצלחה מוזיקלית. מוזיאיליקי משלב הפקה מקצועית עם אסטרטגיית רשתות חברתיות באינסטגרם ופייסבוק שמביאה את האמן שלכם מול הקהל הנכון.
 
 ### קביעת פגישה
-https://example.com/appointments
+https://muziaeliki.zappy5.app/appointments
 קביעת תור אולפן הקלטות אונליין מעולם לא הייתה פשוטה יותר. בחרו זמן שמתאים לכם, פגשו את הצוות שלנו ותגלו איך מוזיאיליקי יכול להפוך את המוזיקה שלכם למציאות. הצעד הראשון מתחיל כאן.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://muziaeliki.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://muziaeliki.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://muziaeliki.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About מוזיאיליקי
+Muziaeliki is a music recording studio with a compelling success story to tell. The studio offers full-service music production including singles and album recordings, personal artist representation, and online appointment booking. The brand emphasizes a personal, artist-first approach, combining professional music production with digital presence through Instagram and Facebook integration, and showcasing real artist success stories to attract new talent.
+
+## Services/Products
+- הקלטת סינגלים ואלבומים
+- ייצוג אמנים אישי
+- קביעת תורים לפגישות באולפן אונליין
+- חיבור לעמוד אינסטגרם ופייסבוק
+- הצגת סיפור הצלחה
+
+## Target Audience
+אמנים, זמרים, מוזיקאים המחפשים אולפן הקלטות
+
+## Industry
+מוזיקה ובידור
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://muziaeliki.zappy5.app/sitemap.xml
+- **Robots.txt**: https://muziaeliki.zappy5.app/robots.txt
