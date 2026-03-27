@@ -325,16 +325,16 @@
 
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg class="hamburger-icon" width="24" height="24" viewbox="0 0 24 24" fill="none">
+    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" style="display: none;">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
 
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
-    <svg width="20" height="20" viewbox="0 0 24 24" fill="currentColor">
+  <button class="phone-header-btn" data-phone="0545707311" aria-label="Call">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
@@ -736,7 +736,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0545707311';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -812,7 +812,7 @@
   </div>
 
   <div class="spi-bottom-divider-wrapper" aria-hidden="true">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1440 64" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 64" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,64 L0,28 Q120,18 240,26 T480,20 Q600,28 720,18 T960,24 Q1080,18 1200,26 T1440,20 L1440,64 Z" fill="var(--bg-light)"></path>
     </svg>
   </div>
@@ -836,7 +836,7 @@
         <div class="channel-card-inner">
           <div class="channel-brand-bar">
             <div class="channel-icon-wrap instagram-icon-wrap">
-              <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+              <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
             </div>
             <div class="channel-brand-info">
               <span class="channel-platform-name">Instagram</span>
@@ -891,7 +891,7 @@
             </div>
           </div>
 
-          <a href="https://instagram.com/[instagram_handle]" target="_blank" rel="noopener" class="channel-cta btn-primary">
+          <a href="#" target="_blank" rel="noopener" class="channel-cta btn-primary" style="display:none !important;">
             <i class="fab fa-instagram"></i>
             <span>עקבו באינסטגרם</span>
           </a>
@@ -903,7 +903,7 @@
         <div class="channel-card-inner">
           <div class="channel-brand-bar">
             <div class="channel-icon-wrap facebook-icon-wrap">
-              <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+              <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
             </div>
             <div class="channel-brand-info">
               <span class="channel-platform-name">Facebook</span>
@@ -955,7 +955,7 @@
             </div>
           </div>
 
-          <a href="https://facebook.com/[facebook_handle]" target="_blank" rel="noopener" class="channel-cta btn-facebook">
+          <a href="#" target="_blank" rel="noopener" class="channel-cta btn-facebook" style="display:none !important;">
             <i class="fab fa-facebook-f"></i>
             <span>הצטרפו בפייסבוק</span>
           </a>
@@ -975,7 +975,7 @@
 
   <!-- Bottom diagonal divider -->
   <div class="channels-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1440 90" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,90 L0,55 L1440,15 L1440,90 Z" fill="#121417"></path>
       <path d="M0,58 L1440,18" stroke="rgba(255,45,149,0.35)" stroke-width="2" fill="#121417"></path>
     </svg>
@@ -1101,11 +1101,11 @@
     </div>
 
     <div class="spmw-cta-row">
-      <a href="https://instagram.com/[instagram_handle]" target="_blank" class="spmw-social-btn spmw-social-btn--ig">
+      <a href="#" target="_blank" class="spmw-social-btn spmw-social-btn--ig" style="display:none !important;">
         <i class="fab fa-instagram"></i>
         <span>עקבו באינסטגרם</span>
       </a>
-      <a href="https://facebook.com/[facebook_handle]" target="_blank" class="spmw-social-btn spmw-social-btn--fb">
+      <a href="#" target="_blank" class="spmw-social-btn spmw-social-btn--fb" style="display:none !important;">
         <i class="fab fa-facebook-f"></i>
         <span>עקבו בפייסבוק</span>
       </a>
@@ -1114,7 +1114,7 @@
 
   <!-- Bottom curtain divider -->
   <div class="spmw-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1440 90" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="curtainFade" x1="0" y1="0" x2="0" y2="1">
           <stop offset="0%" stop-color="#09090d" stop-opacity="0"></stop>
@@ -1162,7 +1162,7 @@
       <ul class="spc-points">
         <li class="spc-point">
           <div class="spc-point-icon">
-            <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="10" cy="10" r="9" stroke="var(--primary)" stroke-width="1.5"></circle>
               <path d="M6 10.5l2.5 2.5 5-5" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
@@ -1174,7 +1174,7 @@
         </li>
         <li class="spc-point">
           <div class="spc-point-icon">
-            <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="10" cy="10" r="9" stroke="var(--secondary)" stroke-width="1.5"></circle>
               <path d="M6 10.5l2.5 2.5 5-5" stroke="var(--secondary)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
@@ -1186,7 +1186,7 @@
         </li>
         <li class="spc-point">
           <div class="spc-point-icon">
-            <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="10" cy="10" r="9" stroke="var(--accent)" stroke-width="1.5"></circle>
               <path d="M6 10.5l2.5 2.5 5-5" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
@@ -1198,7 +1198,7 @@
         </li>
         <li class="spc-point">
           <div class="spc-point-icon">
-            <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="10" cy="10" r="9" stroke="var(--primary)" stroke-width="1.5"></circle>
               <path d="M6 10.5l2.5 2.5 5-5" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
@@ -1220,7 +1220,7 @@
         <img data-placeholder="social-presence-community-image-1" data-context="A confident young Israeli music artist standing in a professional dark recording studio, lit by dramatic magenta and cyan rim lighting, looking directly at camera with a microphone in front, cinematic atmosphere, premium studio environment" width="480" height="600" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='480' height='600'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%23FF0083;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%23FF008320;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23grad)'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial, sans-serif' font-size='18' fill='white' text-anchor='middle' dy='.3em' font-weight='500'%3E%D7%90%D7%9E%D7%9F%20%D7%9E%D7%A7%D7%9C%D7%99%D7%98%20%D7%91%D7%90%D7%95%D7%9C%D7%A4%D7%9F%20%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%99%D7%9C%D7%99%D7%A7%D7%99%3C/text%3E%3C/svg%3E" alt="אמן מקליט באולפן מוזיאיליקי" class="spc-artist-img">
         <!-- Floating social badge -->
         <div class="spc-social-badge spc-badge-ig">
-          <svg data-element-type="icon" data-icon-type="svg" width="18" height="18" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg data-element-type="icon" data-icon-type="svg" width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="2"></rect>
             <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="2"></circle>
             <circle cx="17.5" cy="6.5" r="1" fill="currentColor"></circle>
@@ -1228,7 +1228,7 @@
           <span>Instagram</span>
         </div>
         <div class="spc-social-badge spc-badge-fb">
-          <svg data-element-type="icon" data-icon-type="svg" width="18" height="18" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg data-element-type="icon" data-icon-type="svg" width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
           <span>Facebook</span>
@@ -1267,7 +1267,7 @@
 
   <!-- Bottom divider: narrow cyan pulse line -->
   <div class="spc-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1280 32" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1280 32" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,32 L0,20 Q160,8 320,18 T640,14 Q800,10 960,18 T1280,16 L1280,32 Z" fill="#09090d"></path>
       <path d="M0,22 Q160,10 320,20 T640,16 Q800,12 960,20 T1280,18" stroke="rgba(34,211,238,0.35)" stroke-width="1.5" fill="#09090d"></path>
     </svg>
@@ -1292,7 +1292,7 @@
 </section>
   </main>
   
-  <footer class="site-footer"><div class="footer-glow-top"></div><div class="footer-container"><div class="footer-top"><div class="footer-col footer-brand"><img src="/assets/logo.webp" alt="מוזיאיליקי" class="logo"><p class="footer-tagline">הבמה שלך מתחילה כאן. הפקה, ייצוג ונוכחות — הכל תחת קורת גג אחת.</p><div class="footer-social"><a href="[facebook_handle]" aria-label="Facebook" class="social-link"><i class="fab fa-facebook-f"></i></a><a href="[instagram_handle]" aria-label="Instagram" class="social-link"><i class="fab fa-instagram"></i></a><a href="[whatsapp_handle]" aria-label="WhatsApp" class="social-link"><i class="fab fa-whatsapp"></i></a></div></div><div class="footer-col footer-links"><h4 class="footer-heading"><span class="heading-accent"></span>ניווט מהיר</h4><ul class="footer-nav"><li><a href="/success-stories" class="footer-link"><i class="fas fa-chevron-left link-icon"></i>סיפורי הצלחה</a></li><li><a href="/production-and-representation" class="footer-link"><i class="fas fa-chevron-left link-icon"></i>הפקה וייצוג</a></li><li><a href="/social-presence" class="footer-link"><i class="fas fa-chevron-left link-icon"></i>נוכחות ברשתות</a></li><li><a href="/appointments" class="footer-link"><i class="fas fa-chevron-left link-icon"></i>קביעת פגישה</a></li></ul></div><div class="footer-col footer-contact"><h4 class="footer-heading"><span class="heading-accent"></span>צור קשר</h4><ul class="footer-contact-list"><li class="contact-item"><span class="contact-icon"><i class="fas fa-envelope"></i></span><a href="mailto:[business_email]" class="footer-link">[business_email]</a></li><li class="contact-item"><span class="contact-icon"><i class="fas fa-phone-alt"></i></span><a href="tel:[business_phone]" class="footer-link">[business_phone]</a></li><li class="contact-item"><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span><span class="contact-text">[business_address]</span></a></li></ul></div><div class="footer-col footer-cta-col"><h4 class="footer-heading"><span class="heading-accent"></span>מוכן להתחיל?</h4><p class="cta-text">קבע פגישה עם הצוות שלנו וצא לדרך לקריירה מוזיקלית מנצחת.</p><a href="/appointments" class="footer-cta-btn">קביעת פגישה <i class="fas fa-arrow-left"></i></a></div></div><div class="footer-divider"></div><div class="footer-bottom"><p class="footer-copyright">© 2026 מוזיאיליקי. כל הזכויות שמורות.</p><div class="footer-legal"><a href="/privacy" class="legal-link">מדיניות פרטיות</a><span class="legal-sep"></span><a href="/terms" class="legal-link">תנאי שימוש</a><span class="legal-sep"></span><a href="/accessibility" class="legal-link">נגישות</a><span class="legal-sep"></span><a href="https://zappy5.com" target="_blank" class="zappy-attribution">נוצר באמצעות Zappy</a></div></div></div></footer>
+  <footer class="site-footer"><div class="footer-glow-top"></div><div class="footer-container"><div class="footer-top"><div class="footer-col footer-brand"><img src="/assets/logo.webp" alt="מוזיאיליקי" class="logo"><p class="footer-tagline">הבמה שלך מתחילה כאן. הפקה, ייצוג ונוכחות — הכל תחת קורת גג אחת.</p><div class="footer-social"><a href="#" aria-label="Facebook" class="social-link" style="display:none !important;"><i class="fab fa-facebook-f"></i></a><a href="#" aria-label="Instagram" class="social-link" style="display:none !important;"><i class="fab fa-instagram"></i></a><a href="#" aria-label="WhatsApp" class="social-link" style="display:none !important;"><i class="fab fa-whatsapp"></i></a></div></div><div class="footer-col footer-links"><h4 class="footer-heading"><span class="heading-accent"></span>ניווט מהיר</h4><ul class="footer-nav"><li><a href="/success-stories" class="footer-link"><i class="fas fa-chevron-left link-icon"></i>סיפורי הצלחה</a></li><li><a href="/production-and-representation" class="footer-link"><i class="fas fa-chevron-left link-icon"></i>הפקה וייצוג</a></li><li><a href="/social-presence" class="footer-link"><i class="fas fa-chevron-left link-icon"></i>נוכחות ברשתות</a></li><li><a href="/appointments" class="footer-link"><i class="fas fa-chevron-left link-icon"></i>קביעת פגישה</a></li></ul></div><div class="footer-col footer-contact"><h4 class="footer-heading"><span class="heading-accent"></span>צור קשר</h4><ul class="footer-contact-list"><li class="contact-item"><span class="contact-icon"><i class="fas fa-envelope"></i></span><a href="mailto:batel2746@gmail.com" class="footer-link">batel2746@gmail.com</a></li><li class="contact-item"><span class="contact-icon"><i class="fas fa-phone-alt"></i></span><a href="tel:0545707311" class="footer-link">0545707311</a></li><li class="contact-item"><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span><span class="contact-text">אחאב 2 , באר שבע, ישראל</span></a></li></ul></div><div class="footer-col footer-cta-col"><h4 class="footer-heading"><span class="heading-accent"></span>מוכן להתחיל?</h4><p class="cta-text">קבע פגישה עם הצוות שלנו וצא לדרך לקריירה מוזיקלית מנצחת.</p><a href="/appointments" class="footer-cta-btn">קביעת פגישה <i class="fas fa-arrow-left"></i></a></div></div><div class="footer-divider"></div><div class="footer-bottom"><p class="footer-copyright">© 2026 מוזיאיליקי. כל הזכויות שמורות.</p><div class="footer-legal"><a href="/privacy" class="legal-link">מדיניות פרטיות</a><span class="legal-sep"></span><a href="/terms" class="legal-link">תנאי שימוש</a><span class="legal-sep"></span><a href="/accessibility" class="legal-link">נגישות</a><span class="legal-sep"></span><a href="https://zappy5.com" target="_blank" class="zappy-attribution">נוצר באמצעות Zappy</a></div></div></div></footer>
   
   <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>

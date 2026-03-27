@@ -325,16 +325,16 @@
 
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg class="hamburger-icon" width="24" height="24" viewbox="0 0 24 24" fill="none">
+    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" style="display: none;">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
 
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
-    <svg width="20" height="20" viewbox="0 0 24 24" fill="currentColor">
+  <button class="phone-header-btn" data-phone="0545707311" aria-label="Call">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
@@ -736,7 +736,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0545707311';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -812,7 +812,7 @@
   </div>
 
   <div class="pri-divider-wrapper" aria-hidden="true">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1440 72" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 72" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <polygon points="0,72 1440,72 1440,0 0,72" fill="var(--bg-dark)"></polygon>
       <polygon points="0,72 1440,72 1440,18" fill="#0a0b10" opacity="0.6"></polygon>
     </svg>
@@ -899,7 +899,7 @@
 
   <!-- Bottom Divider: waveform line dissolving into lighter section -->
   <div class="prs-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1440 60" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,60 L0,32 Q30,28 60,34 T120,30 Q150,26 180,32 T240,28 Q270,32 300,27 T360,30 Q390,34 420,28 T480,32 Q510,28 540,33 T600,29 Q630,32 660,27 T720,31 Q750,28 780,33 T840,29 Q870,32 900,27 T960,31 Q990,35 1020,29 T1080,33 Q1110,28 1140,32 T1200,29 Q1230,33 1260,28 T1320,31 Q1350,35 1380,30 T1440,32 L1440,60 Z" fill="var(--bg-light)"></path>
     </svg>
   </div>
@@ -1020,7 +1020,7 @@
 
   <!-- Bottom divider: dark gradient rise -->
   <div class="process-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1440 90" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,90 L0,45 Q180,20 360,38 T720,28 Q900,18 1080,36 T1440,30 L1440,90 Z" fill="#121417"></path>
     </svg>
   </div>
@@ -1036,7 +1036,7 @@
       <div class="parb-benefits-list">
         <div class="parb-benefit-item">
           <div class="parb-benefit-icon">
-            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
+            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
           </div>
           <div class="parb-benefit-content">
             <h3 class="parb-benefit-title">אסטרטגיה מותאמת אישית</h3>
@@ -1045,7 +1045,7 @@
         </div>
         <div class="parb-benefit-item">
           <div class="parb-benefit-icon">
-            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
           </div>
           <div class="parb-benefit-content">
             <h3 class="parb-benefit-title">עקביות לאורך זמן</h3>
@@ -1054,7 +1054,7 @@
         </div>
         <div class="parb-benefit-item">
           <div class="parb-benefit-icon">
-            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
           </div>
           <div class="parb-benefit-content">
             <h3 class="parb-benefit-title">אמון ושקיפות מלאה</h3>
@@ -1063,7 +1063,7 @@
         </div>
         <div class="parb-benefit-item">
           <div class="parb-benefit-icon">
-            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
           </div>
           <div class="parb-benefit-content">
             <h3 class="parb-benefit-title">פיתוח אמנותי ארוך טווח</h3>
@@ -1094,7 +1094,7 @@
   <!-- Bottom Divider: slim gold line + charcoal fade -->
   <div class="parb-divider-wrapper">
     <div class="parb-gold-line"></div>
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1440 48" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 48" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,48 L0,18 Q180,6 360,18 T720,12 Q900,4 1080,16 T1440,10 L1440,48 Z" fill="#F5F7FA"></path>
     </svg>
   </div>
@@ -1202,7 +1202,7 @@
 </section>
   </main>
   
-  <footer class="site-footer"><div class="footer-glow-top"></div><div class="footer-container"><div class="footer-top"><div class="footer-col footer-brand"><img src="/assets/logo.webp" alt="מוזיאיליקי" class="logo"><p class="footer-tagline">הבמה שלך מתחילה כאן. הפקה, ייצוג ונוכחות — הכל תחת קורת גג אחת.</p><div class="footer-social"><a href="[facebook_handle]" aria-label="Facebook" class="social-link"><i class="fab fa-facebook-f"></i></a><a href="[instagram_handle]" aria-label="Instagram" class="social-link"><i class="fab fa-instagram"></i></a><a href="[whatsapp_handle]" aria-label="WhatsApp" class="social-link"><i class="fab fa-whatsapp"></i></a></div></div><div class="footer-col footer-links"><h4 class="footer-heading"><span class="heading-accent"></span>ניווט מהיר</h4><ul class="footer-nav"><li><a href="/success-stories" class="footer-link"><i class="fas fa-chevron-left link-icon"></i>סיפורי הצלחה</a></li><li><a href="/production-and-representation" class="footer-link"><i class="fas fa-chevron-left link-icon"></i>הפקה וייצוג</a></li><li><a href="/social-presence" class="footer-link"><i class="fas fa-chevron-left link-icon"></i>נוכחות ברשתות</a></li><li><a href="/appointments" class="footer-link"><i class="fas fa-chevron-left link-icon"></i>קביעת פגישה</a></li></ul></div><div class="footer-col footer-contact"><h4 class="footer-heading"><span class="heading-accent"></span>צור קשר</h4><ul class="footer-contact-list"><li class="contact-item"><span class="contact-icon"><i class="fas fa-envelope"></i></span><a href="mailto:[business_email]" class="footer-link">[business_email]</a></li><li class="contact-item"><span class="contact-icon"><i class="fas fa-phone-alt"></i></span><a href="tel:[business_phone]" class="footer-link">[business_phone]</a></li><li class="contact-item"><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span><span class="contact-text">[business_address]</span></a></li></ul></div><div class="footer-col footer-cta-col"><h4 class="footer-heading"><span class="heading-accent"></span>מוכן להתחיל?</h4><p class="cta-text">קבע פגישה עם הצוות שלנו וצא לדרך לקריירה מוזיקלית מנצחת.</p><a href="/appointments" class="footer-cta-btn">קביעת פגישה <i class="fas fa-arrow-left"></i></a></div></div><div class="footer-divider"></div><div class="footer-bottom"><p class="footer-copyright">© 2026 מוזיאיליקי. כל הזכויות שמורות.</p><div class="footer-legal"><a href="/privacy" class="legal-link">מדיניות פרטיות</a><span class="legal-sep"></span><a href="/terms" class="legal-link">תנאי שימוש</a><span class="legal-sep"></span><a href="/accessibility" class="legal-link">נגישות</a><span class="legal-sep"></span><a href="https://zappy5.com" target="_blank" class="zappy-attribution">נוצר באמצעות Zappy</a></div></div></div></footer>
+  <footer class="site-footer"><div class="footer-glow-top"></div><div class="footer-container"><div class="footer-top"><div class="footer-col footer-brand"><img src="/assets/logo.webp" alt="מוזיאיליקי" class="logo"><p class="footer-tagline">הבמה שלך מתחילה כאן. הפקה, ייצוג ונוכחות — הכל תחת קורת גג אחת.</p><div class="footer-social"><a href="#" aria-label="Facebook" class="social-link" style="display:none !important;"><i class="fab fa-facebook-f"></i></a><a href="#" aria-label="Instagram" class="social-link" style="display:none !important;"><i class="fab fa-instagram"></i></a><a href="#" aria-label="WhatsApp" class="social-link" style="display:none !important;"><i class="fab fa-whatsapp"></i></a></div></div><div class="footer-col footer-links"><h4 class="footer-heading"><span class="heading-accent"></span>ניווט מהיר</h4><ul class="footer-nav"><li><a href="/success-stories" class="footer-link"><i class="fas fa-chevron-left link-icon"></i>סיפורי הצלחה</a></li><li><a href="/production-and-representation" class="footer-link"><i class="fas fa-chevron-left link-icon"></i>הפקה וייצוג</a></li><li><a href="/social-presence" class="footer-link"><i class="fas fa-chevron-left link-icon"></i>נוכחות ברשתות</a></li><li><a href="/appointments" class="footer-link"><i class="fas fa-chevron-left link-icon"></i>קביעת פגישה</a></li></ul></div><div class="footer-col footer-contact"><h4 class="footer-heading"><span class="heading-accent"></span>צור קשר</h4><ul class="footer-contact-list"><li class="contact-item"><span class="contact-icon"><i class="fas fa-envelope"></i></span><a href="mailto:batel2746@gmail.com" class="footer-link">batel2746@gmail.com</a></li><li class="contact-item"><span class="contact-icon"><i class="fas fa-phone-alt"></i></span><a href="tel:0545707311" class="footer-link">0545707311</a></li><li class="contact-item"><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span><span class="contact-text">אחאב 2 , באר שבע, ישראל</span></a></li></ul></div><div class="footer-col footer-cta-col"><h4 class="footer-heading"><span class="heading-accent"></span>מוכן להתחיל?</h4><p class="cta-text">קבע פגישה עם הצוות שלנו וצא לדרך לקריירה מוזיקלית מנצחת.</p><a href="/appointments" class="footer-cta-btn">קביעת פגישה <i class="fas fa-arrow-left"></i></a></div></div><div class="footer-divider"></div><div class="footer-bottom"><p class="footer-copyright">© 2026 מוזיאיליקי. כל הזכויות שמורות.</p><div class="footer-legal"><a href="/privacy" class="legal-link">מדיניות פרטיות</a><span class="legal-sep"></span><a href="/terms" class="legal-link">תנאי שימוש</a><span class="legal-sep"></span><a href="/accessibility" class="legal-link">נגישות</a><span class="legal-sep"></span><a href="https://zappy5.com" target="_blank" class="zappy-attribution">נוצר באמצעות Zappy</a></div></div></div></footer>
   
   <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
